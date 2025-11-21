@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages on Tag
 on:
   push:
     tags:
-      - "v*.*.*"   # z.B. v1.0.0, v1.2.3 usw.
+      - 'v*.*.*' # z.B. v1.0.0, v1.2.3 usw.
 
 permissions:
   contents: read
@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."   # Root, weil hier index.html liegt
+          path: '.' # Root, weil hier index.html liegt
 
   deploy:
     needs: build
