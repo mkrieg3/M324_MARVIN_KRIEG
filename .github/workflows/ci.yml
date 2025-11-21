@@ -32,11 +32,6 @@ jobs:
         if: always()
         run: npm test
 
-jobs:
-  quality-checks:
-    runs-on: ubuntu-latest
-    # ... dein bisheriger Job (siehe oben)
-
   virus-scan:
     runs-on: ubuntu-latest
 
