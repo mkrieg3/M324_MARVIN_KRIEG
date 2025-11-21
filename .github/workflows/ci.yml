@@ -39,5 +39,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run antivirus scan
-        uses: djdefi/git-anti-virus-scan@v2
+      - name: Git AV Scan
+        uses: djdefi/gitavscan@main
+        with:
+          full: '--full'
+
