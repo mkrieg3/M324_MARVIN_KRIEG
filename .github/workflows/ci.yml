@@ -43,4 +43,3 @@ jobs:
         uses: djdefi/gitavscan@main
         with:
           full: '--full'
-
