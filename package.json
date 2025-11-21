@@ -1,0 +1,25 @@
+{
+  "name": "m324_marvin_krieg",
+  "version": "1.0.0",
+  "description": "Modul M324, personal Repository for tasks and exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrieg3/M324_MARVIN_KRIEG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mkrieg3/M324_MARVIN_KRIEG/issues"
+  },
+  "homepage": "https://github.com/mkrieg3/M324_MARVIN_KRIEG#readme",
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "prettier": "^3.6.2"
+  }
+}
