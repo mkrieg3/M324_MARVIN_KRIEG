@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mkrieg3/M324_MARVIN_KRIEG#readme",
   "devDependencies": {
-    "eslint": "^9.39.1",
+    "eslint": "^8.57.1",
     "prettier": "^3.6.2"
   },
   "dependencies": {
