@@ -32,6 +32,22 @@ services:
     networks:
       - mynet
 
+  webapp:
+    build:
+      context: ./webapp
+    image: task6-webapp:latest
+    environment:
+      DB_HOST: mysql
+      DB_USER: demo
+      DB_PASSWORD: ${MYSQL_PASSWORD}
+      DB_NAME: demo
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+    networks:
+      - mynet
+
 networks:
   mynet:
     driver: bridge
