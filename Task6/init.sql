@@ -11,4 +11,5 @@ CREATE TABLE IF NOT EXISTS employees (
 INSERT INTO employees (first_name, last_name, role) VALUES
 ('Alice', 'Anderson', 'Engineer'),
 ('Bruno', 'Bieri', 'Support'),
-('Clara', 'Cahill', 'Product');
+('Clara', 'Cahill', 'Product'),
+('Doris', 'Dubs', 'Analyst');
