@@ -1,0 +1,5 @@
+FROM mysql:latest
+
+RUN microdnf update -y && \
+    microdnf install -y nano && \
+    microdnf clean all
