@@ -28,3 +28,6 @@ Thumbs.db
 .env
 .env.local
 .env.*
+
+# Task6 bind mount data
+Task6/mysql_data/
